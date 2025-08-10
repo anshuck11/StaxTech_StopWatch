@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!-- Creative Liquid Blobs Background -->
+ <div class="orb"></div>
+<div class="orb"></div>
+<div class="orb"></div>
+  </div>
+    <div class="container">
+        <h1>Stopwatch</h1>
+        
+        <div class="stopwatch">
+            <div class="display" id="display">00:00:00</div>
+            
+            <div class="controls">
+                <button id="startStopBtn" class="btn start">Start</button>
+                <button id="resetBtn" class="btn reset">Reset</button>
+                <button id="lapBtn" class="btn lap" disabled>Lap</button>
+            </div>
+        </div>
+        
+        <div class="lap-section">
+            <h3>Lap Times</h3>
+            <div class="lap-times" id="lapTimes">
+                <!-- Lap times will be added here dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
